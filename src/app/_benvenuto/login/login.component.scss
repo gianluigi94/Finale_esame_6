@@ -6,21 +6,34 @@
   gap: 12px;
   margin-left: 62%;
 
+<<<<<<< HEAD
   /* label sopra che simulano le vecchie (Utente, Password) */
+=======
+>>>>>>> 35cb057 (metà commenti)
   .label-sopra {
     font-size: 24px;
     width: fit-content;
     font-weight: 500;
     font-family: "Quantico", serif;
+<<<<<<< HEAD
     color: aliceblue; /* bianco normale */
+=======
+    color: aliceblue;
+>>>>>>> 35cb057 (metà commenti)
     font-weight: bolder;
   }
 
   .label-sopra.is-invalid {
+<<<<<<< HEAD
     color: red !important; /* rosso quando sbagliato */
   }
 
   /* wrapper generico campo con floating label */
+=======
+    color: red !important;
+  }
+
+>>>>>>> 35cb057 (metà commenti)
   .campo-form {
     position: relative;
     width: fit-content;
@@ -33,7 +46,11 @@
   }
 
   .password-wrapper #password {
+<<<<<<< HEAD
     padding-right: 42px; /* spazio per l'icona */
+=======
+    padding-right: 42px;
+>>>>>>> 35cb057 (metà commenti)
   }
 
   .toggle-password {
@@ -57,17 +74,27 @@
     outline: none;
   }
 
+<<<<<<< HEAD
   /* stile base label floating (dentro il campo) */
+=======
+>>>>>>> 35cb057 (metà commenti)
   label {
     font-size: 24px;
     width: fit-content;
     font-weight: 500;
     font-family: "Quantico", serif;
+<<<<<<< HEAD
     color: #4f5050; /* grigio normale */
     font-weight: bolder;
   }
 
   /* label dei campi con floating (Utente + Password) */
+=======
+    color: #4f5050;
+    font-weight: bolder;
+  }
+
+>>>>>>> 35cb057 (metà commenti)
   .campo-form label {
     position: absolute;
     left: 10px;
@@ -79,7 +106,10 @@
       color 0.15s ease;
   }
 
+<<<<<<< HEAD
   /* input utente e password */
+=======
+>>>>>>> 35cb057 (metà commenti)
   #password,
   #utente {
     width: 350px;
@@ -88,12 +118,19 @@
     border: none;
     border-radius: 7px;
     font-size: 18px;
+<<<<<<< HEAD
     padding: 18px 10px 0 10px; /* spazio sopra per la label rimpicciolita */
+=======
+    padding: 18px 10px 0 10px;
+>>>>>>> 35cb057 (metà commenti)
     color: rgb(205, 205, 205);
     box-shadow: 0 0 8px #999da0;
   }
 
+<<<<<<< HEAD
   /* quando il campo è in focus o NON è vuoto → label va in alto e si rimpicciolisce */
+=======
+>>>>>>> 35cb057 (metà commenti)
   .campo-form input:focus ~ label,
   .campo-form input:not(:placeholder-shown) ~ label {
     top: 4px;
@@ -101,7 +138,10 @@
     font-size: 12px;
   }
 
+<<<<<<< HEAD
   /* se il campo è invalido la label fluttuante diventa rosso scuro */
+=======
+>>>>>>> 35cb057 (metà commenti)
   .campo-form label.is-invalid {
     color: rgb(137, 11, 11) !important;
   }
@@ -156,7 +196,10 @@
     padding-left: 32px;
   }
 
+<<<<<<< HEAD
   /* box nero con ombra */
+=======
+>>>>>>> 35cb057 (metà commenti)
   .check span::before {
     content: "";
     position: absolute;
@@ -170,7 +213,10 @@
     box-shadow: 0 0 7px #999da094;
   }
 
+<<<<<<< HEAD
   /* spunta */
+=======
+>>>>>>> 35cb057 (metà commenti)
   .check span::after {
     content: "";
     position: absolute;
@@ -199,7 +245,10 @@
   color: red !important;
 }
 
+<<<<<<< HEAD
 /* contenitore generale login */
+=======
+>>>>>>> 35cb057 (metà commenti)
 .login-contenuto {
   position: fixed;
   top: 0;
@@ -216,6 +265,7 @@
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 /* focus input */
 #utente:focus,
 #password:focus {
@@ -224,13 +274,24 @@
 }
 
 /* placeholder reali (ora sono " ", ma lascio le regole come le avevi) */
+=======
+#utente:focus,
+#password:focus {
+  outline: none;
+  box-shadow: 0 0 4px orange !important;
+}
+
+>>>>>>> 35cb057 (metà commenti)
 #utente::placeholder,
 #password::placeholder {
   font-size: 17px;
   color: #4f5050;
 }
 
+<<<<<<< HEAD
 /* placeholder scompare quando il campo è selezionato */
+=======
+>>>>>>> 35cb057 (metà commenti)
 #utente:focus::placeholder,
 #password:focus::placeholder {
   color: transparent;
@@ -241,7 +302,10 @@
   color: rgb(8, 3, 58) !important;
 }
 
+<<<<<<< HEAD
 /* titolo */
+=======
+>>>>>>> 35cb057 (metà commenti)
 h2 {
   color: aliceblue;
   font-size: 40px;
@@ -255,7 +319,10 @@ h2 {
   }
 }
 
+<<<<<<< HEAD
 /* footer */
+=======
+>>>>>>> 35cb057 (metà commenti)
 app-footer {
   z-index: 20;
   position: absolute;
@@ -264,7 +331,10 @@ app-footer {
   bottom: 0px;
 }
 
+<<<<<<< HEAD
 /* NUOVO: testo di errore sotto i campi */
+=======
+>>>>>>> 35cb057 (metà commenti)
 .errore-campo {
   font-size: 14px;
   color: #b41414;
